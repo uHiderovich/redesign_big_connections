@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Вакансии компании Большие Связи" />
-    <title>Вакансии — Большие Связи</title>
+    <meta name="description" content="Тарифы интернета для многоквартирных домов в г. Черемхово" />
+    <title>Интернет в многоквартирный дом — Большие Связи</title>
     <link rel="preload" href="/redesign_big_connections/fonts/ubuntu/ubuntu-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/redesign_big_connections/fonts/ubuntu/ubuntu-bold.woff2" as="font" type="font/woff2" crossorigin>
     <script type="module" crossorigin src="/redesign_big_connections/assets/main-17NFijKV.js"></script>
@@ -283,83 +283,155 @@
     </header>
 
     <main class="page__main">
-      <div class="page-content">
+
+      <section class="tariff-page">
         <div class="container">
           <nav class="breadcrumbs" aria-label="Хлебные крошки">
             <ol class="breadcrumbs__list">
               <li class="breadcrumbs__item">
-                <span class="breadcrumbs__text">О компании</span>
+                <span class="breadcrumbs__text">Тарифы и услуги</span>
 
                 <span class="breadcrumbs__dot" aria-hidden="true"></span>
               </li>
               <li class="breadcrumbs__item">
-                <span class="breadcrumbs__text" aria-current="page">Вакансии</span>
+                <span class="breadcrumbs__text" aria-current="page">Интернет для города</span>
 
               </li>
             </ol>
           </nav>
 
-          <div class="vacancies-page white-box">
-            <h1 class="vacancies-page__title">г. Биробиджан</h1>
+          <h1 class="section-title tariff-page__title">
+            Тарифы для многоквартирных домов / г. Черемхово
+          </h1>
 
-            <div class="vacancies-table">
-              <div class="vacancies-table__header">
-                <div class="vacancies-table__cell"></div>
-                <div class="bordered-box vacancies-table__cell vacancies-table__cell--head">Обязанности</div>
-                <div class="bordered-box vacancies-table__cell vacancies-table__cell--head">Требования</div>
-                <div class="bordered-box vacancies-table__cell vacancies-table__cell--head">Условия</div>
+          <ul class="tariff-page__grid">
+            <li class="tariff-card">
+              <h3 class="tariff-card__title">
+                Интернет 100
+              </h3>
+
+              <div class="tariff-card__features">
+                <ul class="tariff-card__features-list">
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-internet"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">до 100 Мбит/с</span>
+                  </li>
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-ruble"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">800 ₽/мес</span>
+                  </li>
+                </ul>
               </div>
 
-              <ul class="vacancies-list">
-                <li class="vacancies-list__row">
-                  <div class="bordered-box vacancies-list__cell vacancies-list__cell--head">
-                    Оператор контакт-центра
-                  </div>
-                  <div class="bordered-box vacancies-list__cell">
-                    <p class="vacancies-list__cell-label">Обязанности</p>
-                    <ul>
-                      <li>Коммуникации с потенциальными абонентами с целью заключения договора на предоставление услуг компании;</li>
-                      <li>Консультация действующих абонентов по услугам и тарифам компании;</li>
-                    </ul>
-                  </div>
-                  <div class="bordered-box vacancies-list__cell">
-                    <p class="vacancies-list__cell-label">Требования</p>
-                    <ul>
-                      <li>Грамотная устная и письменная речь;</li>
-                      <li>Умение излагать свои мысли и договариваться;</li>
-                      <li>Желание обучаться новому и развиваться;</li>
-                      <li>Уверенный пользователь ПК</li>
-                    </ul>
-                  </div>
-                  <div class="bordered-box vacancies-list__cell">
-                    <p class="vacancies-list__cell-label">Условия</p>
-                    <ul>
-                      <li>Достойная заработная плата (оклад+премия) от 25 000 ₽;</li>
-                      <li>Современный офис в центральном районе города;</li>
-                      <li>Удобный график работы, чтобы оставалось время на семью и увлечения;</li>
-                      <li>Дружный коллектив и мощная поддержка наставников;</li>
-                      <li>Обучение за счёт компании профессиональным и личным навыкам эффективности;</li>
-                      <li>Скидка 50% на услуги компании;</li>
-                      <li>Возможность карьерного роста</li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="vacancies-page__feedback">
-              <p class="vacancies-page__feedback-text">
-                Своё резюме и контактные данные можете отправить нам на почту
-                с обязательным указанием должности.<br>
-                Мы свяжемся с вами после рассмотрения вашей кандидатуры.
-              </p>
+              <p class="tariff-card__description">Для повседневного использования, учёбы, работы и просмотра видео</p>
 
-              <button class="btn btn--orange focus btn--198" type="button">
-                Отправить
-              </button>
-            </div>
-          </div>
+              <div class="tariff-card__footer">
+
+                <button class="btn btn--orange focus btn--full" type="button" data-bc-open="callback-modal" data-tariff-type="apartments" data-tariff="apartments-internet-100">
+                  Подключить за 0 ₽
+                </button>
+              </div>
+            </li>
+            <li class="tariff-card">
+              <h3 class="tariff-card__title">
+                Интернет 200
+              </h3>
+
+              <div class="tariff-card__features">
+                <ul class="tariff-card__features-list">
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-internet"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">до 200 Мбит/с</span>
+                  </li>
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-ruble"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">1 050 ₽/мес</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="tariff-card__description">Для семьи с активными пользователями, онлайн-работы и видео 4K</p>
+
+              <div class="tariff-card__footer">
+
+                <button class="btn btn--orange focus btn--full" type="button" data-bc-open="callback-modal" data-tariff-type="apartments" data-tariff="apartments-internet-200">
+                  Подключить за 0 ₽
+                </button>
+              </div>
+            </li>
+            <li class="tariff-card">
+              <h3 class="tariff-card__title">
+                Интернет 300
+              </h3>
+
+              <div class="tariff-card__features">
+                <ul class="tariff-card__features-list">
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-internet"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">до 300 Мбит/с</span>
+                  </li>
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-ruble"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">1 200 ₽/мес</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="tariff-card__description">Для стриминга, онлайн-игр и высокой нагрузки без ограничений</p>
+
+              <div class="tariff-card__footer">
+
+                <button class="btn btn--orange focus btn--full" type="button" data-bc-open="callback-modal" data-tariff-type="apartments" data-tariff="apartments-internet-300">
+                  Подключить за 0 ₽
+                </button>
+              </div>
+            </li>
+            <li class="tariff-card">
+              <h3 class="tariff-card__title">
+                Интернет 500
+              </h3>
+
+              <div class="tariff-card__features">
+                <ul class="tariff-card__features-list">
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-internet"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">до 500 Мбит/с</span>
+                  </li>
+                  <li class="tariff-card__feature">
+                    <svg class="tariff-card__feature-icon" aria-hidden="true" focusable="false">
+                      <use href="#icon-ruble"></use>
+                    </svg>
+                    <span class="tariff-card__feature-text">1 500 ₽/мес</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="tariff-card__description">Макс. скорость загрузки для требовательных пользователей и умного дома</p>
+
+              <div class="tariff-card__footer">
+
+                <button class="btn btn--orange focus btn--full" type="button" data-bc-open="callback-modal" data-tariff-type="apartments" data-tariff="apartments-internet-500">
+                  Подключить за 0 ₽
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="footer">
