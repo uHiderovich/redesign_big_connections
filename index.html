@@ -8,8 +8,8 @@
     <title>Большие Связи</title>
     <link rel="preload" href="/redesign_big_connections/fonts/ubuntu/ubuntu-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/redesign_big_connections/fonts/ubuntu/ubuntu-bold.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="module" crossorigin src="/redesign_big_connections/assets/main-Cz5TYH9n.js"></script>
-    <link rel="stylesheet" crossorigin href="/redesign_big_connections/assets/main-Bw2VOOIy.css">
+    <script type="module" crossorigin src="/redesign_big_connections/assets/main-DzHcameu.js"></script>
+    <link rel="stylesheet" crossorigin href="/redesign_big_connections/assets/main-Bhzk_urf.css">
   </head>
 
   <body class="page">
@@ -290,6 +290,19 @@
 
     <main class="page__main">
 
+      <style>
+  .hero {
+    width: 100%;
+    aspect-ratio: 1200 / 400;
+  }
+
+  @media screen and (max-width: 765px) {
+    .hero {
+      aspect-ratio: 375 / 525;
+    }
+  }
+</style>
+
       <section class="hero container container--no-padding">
         <div class="swiper hero__slider js-hero-slider">
           <div class="swiper-wrapper">
@@ -302,7 +315,7 @@
                 <source type="image/webp" width="1200" height="400" srcset="/redesign_big_connections/images/slide-1.webp 1x, /redesign_big_connections/images/slide-1@2x.webp 2x">
                 <source type="image/jpeg" width="1200" height="400" srcset="/redesign_big_connections/images/slide-1@2x.jpg 2x">
 
-                <img class="hero__slide-image" alt="Hero" width="1200" height="400" decoding="async" src="/redesign_big_connections/images/slide-1@2x.jpg" srcset="/redesign_big_connections/images/slide-1@2x.jpg 2x" fetchpriority="high">
+                <img class="hero__slide-image" alt="Hero" width="1200" height="400" decoding="sync" src="/redesign_big_connections/images/slide-1@2x.jpg" srcset="/redesign_big_connections/images/slide-1@2x.jpg 2x" fetchpriority="high">
               </picture>
             </div>
             <div class="swiper-slide hero__slide">
